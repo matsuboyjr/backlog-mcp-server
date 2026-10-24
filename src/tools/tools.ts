@@ -12,6 +12,7 @@ import { countIssuesTool } from './countIssues.js';
 import { deleteIssueTool } from './deleteIssue.js';
 import { addCategoryTool } from './addCategory.js';
 import { getCategoriesTool } from './getCategories.js';
+import { getStatusesTool } from './getStatuses.js';
 import { getCustomFieldsTool } from './getCustomFields.js';
 import { getGitRepositoriesTool } from './getGitRepositories.js';
 import { getGitRepositoryTool } from './getGitRepository.js';
@@ -119,6 +120,7 @@ export const allTools = (
           removeRelatedIssueTool(backlog, helper),
           getPrioritiesTool(backlog, helper),
           getCategoriesTool(backlog, helper),
+          getStatusesTool(backlog, helper),
           addCategoryTool(backlog, helper),
           getCustomFieldsTool(backlog, helper),
           getIssueTypesTool(backlog, helper),
