@@ -307,6 +307,7 @@ Tools for managing issues, their comments, and related items like priorities, ca
 - `remove_related_issue`: Removes the relation between an issue and a related issue.
 - `get_priorities`: Returns list of priorities.
 - `get_categories`: Returns list of categories for a project.
+- `get_statuses`: Returns list of issue statuses for a project. Accepts `projectId` or `projectKey`.
 - `add_category`: Creates a new category for a project.
 - `get_custom_fields`: Returns list of custom fields for a project.
 - `get_issue_types`: Returns list of issue types for a project.
